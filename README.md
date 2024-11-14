@@ -1,42 +1,63 @@
 # Stars-Salon-Web-Project
 
+Upgrade the existing [website](https://stars.cityplym.ac.uk/) for Stars Beauty Salon.
+
 ## Plan
 
-Global components
+**Global components**
  - Navbar
  - Footer with contact info
 
-Home page
+**Home page**
  - Videos and images (Carousel)
  - Description
  
-About / Contact page
+**About / Contact page**
  - Map
  - Contact information
  - Contact Form
 
-Service booking page
+**Service booking page**
  - Breadcrumbs
  - Sorted by category
  - Reviews
 
-Accessibility
+**Accessibility**
  - Accessibility settings
  - Error page
  - Alt text
  - UX
 
-Icons
+**Icons**
  - [MUI Icons](https://mui.com/material-ui/material-icons/)
+
+**Font**
+ - Stars Logo: [Raleway](https://fonts.google.com/specimen/Raleway)
 
 ### Colour Palette
 
-`#FFFFFF`
-`#9EBFC5`
-`#62466B`
-`#332B40`
-`#616758`
+White
+```
+#FFFFFF
+```
+Mint
+```
+#9EBFC5
+```
+Purple
+```
+#62466B
+```
+Dark Purple
+```
+#332B40
+```
+Shaded Grey
+```
+#616758
+```
 
 ## TODO
-- [x] Something
-- [ ] Something else
+- [ ] Recive answer from stars
+- [ ] Create the [Gantt Chart](https://github.com/orgs/TLDPD-01/projects/2).
+- [ ] start
