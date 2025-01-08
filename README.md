@@ -4,6 +4,8 @@ Upgrade the existing [website](https://stars.cityplym.ac.uk/) for Stars Beauty S
 
 ## Plan
 
+Updated text
+
 **Global components**
  - Navbar
  - Footer with contact info
