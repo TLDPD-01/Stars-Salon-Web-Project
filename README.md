@@ -3,7 +3,6 @@
 Upgrade the existing [website](https://stars.cityplym.ac.uk/) for Stars Beauty Salon.
 
 ## Plan
-poo
 Updated text
 
 **Global components**
