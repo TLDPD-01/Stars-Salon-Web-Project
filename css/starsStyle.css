@@ -1,0 +1,44 @@
+@import url("baseStyle.css");
+
+.product-card {
+    border-radius: var(--card-radius);
+    border: solid 1px;
+    border-color: var(--neutral-500);
+    width: 280px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.product-card > * {
+    padding-inline: var(--card-padding);
+    margin: 0;
+}
+
+.product-card > :first-child {
+    padding-top: var(--card-padding);
+    padding-bottom: 0;
+}
+
+.product-card > :last-child {
+    padding-top: 0;
+    padding-bottom: var(--card-padding);
+}
+
+.product-card:hover {
+    background-color: var(--neutral-100);
+}
+
+.product-card:active {
+    background-color: var(--neutral-200);
+}
+
+.product-card-title {
+    font-size: var(--fontsize-h4);
+    border-bottom: solid 1px;
+    border-bottom-color: var(--neutral-400);
+}
+
+.product-card-desc {
+    margin-top: 5px;
+    font-size: var(--fontsize-body-sm);
+}
