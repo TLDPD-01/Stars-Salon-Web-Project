@@ -333,15 +333,16 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    line-height: 1.6;
 }
-
-
 
 .site-header {
     background-color: #000;
     color: #fff;
     padding: 1em;
     text-align: center;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header-container {
@@ -366,31 +367,105 @@ body {
 .header-nav a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.header-nav a:hover {
+    color: #ccc;
 }
 
 .header-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .header-contact-info {
     text-align: right;
+    font-size: 0.9rem;
+    color: #aaa;
 }
-
-
 
 .booking-section {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: linear-gradient(to bottom, #fff, #f7f7f7);
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    padding: 0 20px;
 }
 
 .booking-container {
-    max-width: 500px;
-    padding: 20px;
     background-color: #FFFFFF;
-    box-shadow: 0
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.booking-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.booking-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.form-group {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.booking-submit {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.booking-submit:hover {
+    background-color: #0056b3;
 }
