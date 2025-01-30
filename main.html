@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stars Hair and Day Spa - Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Book Now</a></li>
+                </ul>
+            </nav>
+            <div class="header-logo">
+                <h1>Stars Hair and Day Spa</h1>
+            </div>
+            <div class="header-contact-info">
+                <p>Insert Address Here</p>
+                <p>Insert Phone Number Here</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="booking-section">
+        <div class="booking-container">
+            <h1 class="booking-title">Book Your Appointment</h1>
+            <p class="booking-subtitle">Please fill out the form below to schedule your appointment.</p>
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="service">Service:</label>
+                    <select id="service" name="service">
+                        <option value="haircut">Haircut</option>
+                        <option value="haircoloring">Hair Coloring</option>
+                        <option value="dayspaservices">Day Spa Services</option>
+                        <option value="other">Other (please specify)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div class="form-group">
+                    <label for="time">Time:</label>
+                    <select id="time" name="time">
+                        <option value="9am">9:00 AM</option>
+                        <option value="10am">10:00 AM</option>
+                        <option value="5pm">5:00 PM</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-group">
+                    <label for="phonenumber">Phone Number:</label>
+                    <input type="tel" id="phonenumber" name="phonenumber">
+                </div>
+                <div class="form-group">
+                    <label for="additionalnotes">Additional Notes:</label>
+                    <textarea id="additionalnotes" name="additionalnotes"></textarea>
+                </div>
+                <button type="submit" class="booking-submit">Book Now</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
