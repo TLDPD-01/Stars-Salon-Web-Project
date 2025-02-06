@@ -63,3 +63,6 @@ Shaded Grey
 - [ ] Recive answer from stars
 - [ ] Create the [Gantt Chart](https://github.com/orgs/TLDPD-01/projects/2).
 - [ ] start
+
+
+When using images ensure they are WebP files as they are the best for websites. This is because they have smaller file sizes compared to PNG and JPG which allows the website to load faster. 
