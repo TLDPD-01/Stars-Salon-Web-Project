@@ -1,0 +1,42 @@
+<html lang="en">
+	<head>
+		<title>Stars Website</title>
+		<link rel="stylesheet" href="./css/style.css" type="text/css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+    <body>
+        <div id="navbar"></div>
+
+        <div>
+            <img class="img-box"
+            src="https://t4.ftcdn.net/jpg/04/19/94/59/360_F_419945971_YNfDJMmW1nrXi63PGJ6zTqvWwS2RviKK.jpg" alt="" />
+        </div>
+
+        <div class="stars-box">
+            <p class="stars-font">Stars</p>
+            <p class="title-font-2">Hair & Day Spa</p>
+        </div>
+
+        <div class="navbar"> </div>
+
+        <h1 class="header"> Services we offer </h1>
+
+        <div id="carousel-main"></div>
+
+        <script>
+            fetch("../components/navbar-temp.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("navbar").innerHTML = data;
+                })
+                fetch("../components/carousel.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("carousel-main").innerHTML = data;
+                })
+        </script>
+        </div>
+    </body>
+</html>

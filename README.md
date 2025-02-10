@@ -4,28 +4,31 @@ Upgrade the existing [website](https://stars.cityplym.ac.uk/) for Stars Beauty S
 
 ## Plan
 
+Updated text
+
 **Global components**
-- [x] Navbar
-- [ ] Footer with contact info
+ - Navbar
+ - Footer with contact info
 
 **Home page**
-- [x] Videos and images (Carousel)
-- [ ] Description
+ - Videos and images (Carousel)
+ - Description
  
 **About / Contact page**
-- [ ] Map [(OpenStreetMap)](https://wiki.openstreetmap.org/wiki/Using_OpenStreetMap)
-- [ ] Contact information
-- [ ] Contact Form
+ - Map
+ - Contact information
+ - Contact Form
 
 **Service booking page**
-- [ ] Breadcrumbs
-- [ ] Sorted by category
-- [ ] Reviews
+ - Breadcrumbs
+ - Sorted by category
+ - Reviews
 
 **Accessibility**
-- [ ] Accessibility settings
-- [ ] Error page
-- [ ] Alt text and descriptions
+ - Accessibility settings
+ - Error page
+ - Alt text
+ - UX
 
 **Icons**
  - [MUI Icons](https://mui.com/material-ui/material-icons/)
@@ -55,3 +58,8 @@ Shaded Grey
 ```
 #616758
 ```
+
+## TODO
+- [ ] Recive answer from stars
+- [ ] Create the [Gantt Chart](https://github.com/orgs/TLDPD-01/projects/2).
+- [ ] start
