@@ -1,17 +1,17 @@
 @import url("baseStyle.css");
 
 .product-card {
+    width: 300px;
     border-radius: var(--card-radius);
     border: solid 1px;
     border-color: var(--neutral-500);
-    width: auto;
     height: 180px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
 }
 
-.product-card > * {
+.product-card>* {
     margin-inline: var(--card-padding);
     padding-inline: var(--card-padding);
     margin: 0;
@@ -56,4 +56,13 @@
 
 .product-card-desc {
     max-width: 200px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-container {
+    width: 100%;
 }
