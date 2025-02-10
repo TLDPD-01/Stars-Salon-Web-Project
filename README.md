@@ -13,13 +13,13 @@ Upgrade the existing [website](https://stars.cityplym.ac.uk/) for Stars Beauty S
 - [ ] Description
  
 **About / Contact page**
-- [ ] Map [(OpenStreetMap)](https://wiki.openstreetmap.org/wiki/Using_OpenStreetMap)
+- [x] Map [(OpenStreetMap)](https://wiki.openstreetmap.org/wiki/Using_OpenStreetMap)
 - [ ] Contact information
 - [ ] Contact Form
 
 **Service booking page**
 - [ ] Breadcrumbs
-- [ ] Sorted by category
+- [x] Sorted by category
 - [ ] Reviews
 
 **Accessibility**
@@ -28,7 +28,7 @@ Upgrade the existing [website](https://stars.cityplym.ac.uk/) for Stars Beauty S
 - [ ] Alt text and descriptions
 
 **Icons**
- - [MUI Icons](https://mui.com/material-ui/material-icons/)
+ - [Google Icons](https://fonts.google.com/icons)
 
 **Font**
  - Stars Logo: [Raleway](https://fonts.google.com/specimen/Raleway)
