@@ -25,6 +25,10 @@
 
         <div id="carousel-main"></div>
 
+        <h1 class="header"> Find us </h1>
+
+        <div id="map-main" style="margin-block: 1rem;"></div>
+
         <script>
             fetch("../components/navbar-temp.html")
                 .then(response => response.text())
@@ -35,6 +39,11 @@
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById("carousel-main").innerHTML = data;
+                })
+                fetch("../components/osm-map.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("map-main").innerHTML = data;
                 })
         </script>
         </div>
