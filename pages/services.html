@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Services | Stars Hair and Beauty Saloon</title>
+        <link rel="stylesheet" href="../css/starsStyle.css">
+    </head>
+
+    <body>
+        <nav style="height: 100px; width: 100%; display: flex;">
+            navbar here
+        </nav>
+        <div>
+            <h1>Services</h1>
+        </div>
+        <hr/>
+        <div class="flexStyled">
+            <div class="flexRow flexStyled">
+                <div id="services" class="services-container"></div>
+            </div>
+        </div>
+
+        <script src="../js/serviceData.js"></script>
+
+        <script>
+            getServices();
+
+            function getServices() {
+                const container = document.getElementById("services");
+
+                Object.keys(services).forEach(category => {
+                    const section = document.createElement("div");
+                    section.classList.add("service-category");
+
+                    const title = document.createElement("h2");
+                    title.textContent = category;
+
+                    const list = document.createElement("ul");
+                    list.classList.add("service-list");
+                    const hr = document.createElement("hr");
+
+                    services[category].forEach(service => {
+                        const listItem = document.createElement("ul");
+                        
+                        const template = document.createElement("div");
+                        template.innerHTML = `
+                            <div class="product-card">
+                                <p class="product-card-title">${service.name}</p>
+                                <div class="product-card-body">
+                                    <p class="product-card-desc">Test1</p>
+                                </div>
+                                <div class="product-card-footer">${service.price}</div>
+                            </div>
+                        `.trim();
+
+                        listItem.appendChild(template.firstChild);
+                        list.appendChild(listItem);
+                    });
+
+                    section.appendChild(title);
+                    section.appendChild(hr);
+                    section.appendChild(list);
+                    container.appendChild(section);
+                });
+            }
+        </script>
+    </body>
+</html>

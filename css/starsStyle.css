@@ -1,0 +1,68 @@
+@import url("baseStyle.css");
+
+.product-card {
+    width: 300px;
+    border-radius: var(--card-radius);
+    border: solid 1px;
+    border-color: var(--neutral-500);
+    height: 180px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card>* {
+    margin-inline: var(--card-padding);
+    padding-inline: var(--card-padding);
+    margin: 0;
+}
+
+.product-card:hover {
+    background-color: var(--neutral-100);
+}
+
+.product-card:active {
+    background-color: var(--neutral-200);
+}
+
+.product-card-title {
+    padding-top: var(--card-padding);
+    font-size: var(--fontsize-h4);
+    border-bottom: solid 1px;
+    border-bottom-color: var(--neutral-400);
+}
+
+.product-card-body {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    font-size: var(--fontsize-body-sm);
+}
+
+.product-card-footer {
+    margin-top: auto;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-top: solid 1px;
+    border-top-color: var(--neutral-400);
+}
+
+.product-card-img {
+    width: 90px;
+    height: 90px;
+}
+
+.product-card-desc {
+    max-width: 200px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-container {
+    width: 100%;
+}
